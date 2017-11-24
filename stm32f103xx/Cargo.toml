@@ -1,0 +1,11 @@
+[package]
+name = "stm32f103xx"
+version = "0.1.0"
+authors = ["Erwin Gribnau <erwin@gribnau.org>"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+opt-level = "s"
+lto = false
